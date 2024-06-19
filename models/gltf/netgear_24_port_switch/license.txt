@@ -1,0 +1,11 @@
+Model Information:
+* title:	Netgear 24 Port Switch
+* source:	https://sketchfab.com/3d-models/netgear-24-port-switch-43db364e5a52473fbf2c844f1d9be357
+* author:	kerouac9 (https://sketchfab.com/kerouac9)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Netgear 24 Port Switch" (https://sketchfab.com/3d-models/netgear-24-port-switch-43db364e5a52473fbf2c844f1d9be357) by kerouac9 (https://sketchfab.com/kerouac9) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
