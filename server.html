@@ -112,32 +112,6 @@
                     scene.add( clonedObject2 );
                     servers.push(clonedObject2)
                 } );
-                // netgear_24_port_switch
-                loader.load( 'netgear_24_port_switch/scene.gltf', async function ( gltf ) {
-                    const gltfModel = gltf.scene;
-                    gltfModel.scale.setScalar(0.45);
-                    gltfModel.position.y = 50;
-                    gltfModel.position.z = 6;
-                    await renderer.compileAsync( gltfModel, camera, scene );
-                    scene.add( gltfModel );
-                    servers.push(gltfModel)
-                } );
-                // cluster服务器
-                loader.load( 'cluster/scene.gltf', async function ( gltf ) {
-                    const gltfModel = gltf.scene;
-                    gltfModel.scale.setScalar(0.1);
-                    gltfModel.position.x = 1;
-                    gltfModel.position.y = 20;
-                    gltfModel.position.z = 2;
-                    await renderer.compileAsync( gltfModel, camera, scene );
-                    scene.add( gltfModel );
-                    servers.push(gltfModel)
-                    // 复制
-                    const clonedObject = gltfModel.clone();                                
-                    clonedObject.position.y = 40;
-                    scene.add( clonedObject );
-                    servers.push(clonedObject)
-                } );
 
                 renderer = new THREE.WebGLRenderer( { antialias: true } );
                 renderer.setPixelRatio( window.devicePixelRatio );
